@@ -71,6 +71,8 @@ border: 1px solid gold;
 }
 .main-nav li.in a:hover{
     border: 1px solid darkblue;
+    background-color: white;
+    color: goldenrod;
     
 }
 .main-nav li.leftb a{
