@@ -11,6 +11,11 @@ header{
   height: 100vh;
   background-size: cover;
   background-position: center;
+  width: 105%;
+  max-width: 1920px;
+  min-width: 480px;
+  margin-left: -8px;
+  overflow: hidden;
 }
 
 
