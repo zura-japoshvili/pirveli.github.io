@@ -103,6 +103,43 @@ h1{
     text-align: center;
     margin-top: 275px;
     position: fixed;
-    margin-left: 400px;
+    margin-left: 420px;
     
+    
+}
+
+.button
+{
+    position: fixed;
+    margin-top:  400px;
+    margin-left: 550px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    margin-right: 5px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
 }
