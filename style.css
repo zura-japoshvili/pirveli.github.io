@@ -5,7 +5,7 @@
 }
 
 
-header{
+.ih {
   
   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(maxres.jpg);
   height: 100vh;
@@ -150,3 +150,58 @@ h1{
     background-color: darkorange;
     transition: all 0.5s ease-in;
 }
+
+.c {
+    color: aqua;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    margin-left: 1px;
+
+}
+
+.contact {
+    background-color:bisque;
+}
+
+.c {
+    font-family:monospace;
+    font-size: 60px;
+    color: crimson;
+    
+    
+
+}
+
+.pc {
+    font-family: monospace;
+    font-size: 20px;
+    color: coral;
+    margin-left: 5px;
+    margin-top: 100px;
+
+}
+
+.pc li {
+    margin-top: 15px;
+
+}
+
+.pc li a{ 
+    padding: 5px 15px;
+    border: 1px solid darkorange;
+    color: brown;
+    background-color:darkseagreen;
+}
+
+.pc li a:hover{
+    background-color: darkslategrey;
+    transition: all 0.5s ease-in;
+}
+
+
+
+.back {
+    float: right;
+}
+
