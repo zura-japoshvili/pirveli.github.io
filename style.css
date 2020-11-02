@@ -29,7 +29,7 @@
 
 .main-nav li
 {
-  display: inline-block;
+  display: inline-flex;
     
 }
 .main-nav li a{
@@ -38,6 +38,7 @@
     padding: 5px 20px;
     font-family: sans-serif;
     font-size: 15px;
+    border-radius: 50px;
 }
 
 .main-nav li.nav a{
@@ -149,59 +150,5 @@ h1{
 .btn-two:hover{
     background-color: darkorange;
     transition: all 0.5s ease-in;
-}
-
-.c {
-    color: aqua;
-    text-align: left;
-    float: left;
-    margin-top: 10px;
-    margin-left: 1px;
-
-}
-
-.contact {
-    background-color:bisque;
-}
-
-.c {
-    font-family:monospace;
-    font-size: 60px;
-    color: crimson;
-    
-    
-
-}
-
-.pc {
-    font-family: monospace;
-    font-size: 20px;
-    color: coral;
-    margin-left: 5px;
-    margin-top: 100px;
-
-}
-
-.pc li {
-    margin-top: 15px;
-
-}
-
-.pc li a{ 
-    padding: 5px 15px;
-    border: 1px solid darkorange;
-    color: brown;
-    background-color:darkseagreen;
-}
-
-.pc li a:hover{
-    background-color: darkslategrey;
-    transition: all 0.5s ease-in;
-}
-
-
-
-.back {
-    float: right;
 }
 
