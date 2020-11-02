@@ -6,12 +6,12 @@
 
 
 .ih {
-  
+
   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(maxres.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
-  width: 105%;
+  width: 100%;
   max-width: 1920px;
   min-width: 480px;
   margin-left: -8px;
@@ -25,12 +25,18 @@
   float: right;
   list-style: none;
   margin-top: 10px;
+  padding: 10px 100px;
+  background-color: cadetblue;
+  border-radius: 100px;
+    
+
+
 }
 
 .main-nav li
 {
   display: inline-flex;
-    
+
 }
 .main-nav li a{
     position: relative;
@@ -42,13 +48,16 @@
 }
 
 .main-nav li.nav a{
-    
+
     color: goldenrod;
 }
 
 .main-nav li.active a{
     border: 1px solid silver;
-    
+
+}
+.main-nav li.active a:hover{
+  background-color:darkslateblue;
 }
 
 .main-nav li a:hover{
@@ -61,7 +70,7 @@ border: 1px solid gold;
 }
 
 .main-nav li.up a{
-   
+
     border: 1px solid darkblue;
     color:azure;
     background-color: darkblue
@@ -74,13 +83,13 @@ border: 1px solid gold;
     border: 1px solid darkblue;
     background-color: white;
     color: goldenrod;
-    
+
 }
 .main-nav li.leftb a{
     margin-left: 10px;
 }
 
-.logo img 
+.logo img
 {
     width: 150px;
     height: auto;
@@ -93,8 +102,9 @@ body{
 
 .row
 {
-    max-width: 1200px;
+    max-width: 1920px;
     margin:auto;
+
 }
 
 .hero {
@@ -112,8 +122,8 @@ h1{
     margin-top: 275px;
     position: fixed;
     margin-left: 420px;
-    
-    
+
+
 }
 
 .button
@@ -132,14 +142,14 @@ h1{
     font-size: 13px;
     text-decoration: none;
     text-transform: uppercase;
-    
+
 }
 
 .btn-one
 {
     background-color: darkorange;
     font-family: "Roboto", sans-serif;
-    
+
 }
 
 .btn-two
@@ -151,4 +161,3 @@ h1{
     background-color: darkorange;
     transition: all 0.5s ease-in;
 }
-
